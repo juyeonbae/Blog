@@ -1,7 +1,17 @@
 {
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "블로그 포스팅",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
   }
 }
