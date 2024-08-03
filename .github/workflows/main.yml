@@ -27,4 +27,4 @@ jobs:
           git config --local user.email "ilnyu0756@naver.com"
           git config --local user.name "juyeonbae"
           git commit -m "Update README.md"
-          git push
+          git push 
