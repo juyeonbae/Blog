@@ -5,13 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js && node fetch_posts.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rss-parser": "^3.13.0"
+    "axios": "^1.7.3",
+    "jsdom": "^24.1.1",
+    "rss-parser": "^3.13.0",
+    "turndown": "^7.2.0"
   }
 }
