@@ -93,11 +93,19 @@ const turndownService = new TurndownService();
 
     console.log('업데이트 완료');
 
-    // Git 상태 확인
+    // Git 상태 확인 및 변경 사항 커밋
     try {
         const gitStatus = execSync('git status').toString();
         console.log(gitStatus);
+
+        if (!gitStatus.includes('nothing to commit')) {
+            execSync('git add .');
+            execSync('git commit -m "Update README and Fetch Blog Posts"');
+            execSync('git push');
+        } else {
+            console.log('No changes to commit');
+        }
     } catch (e) {
-        console.error('Failed to get git status', e);
+        console.error('Failed to commit changes', e);
     }
 })();
