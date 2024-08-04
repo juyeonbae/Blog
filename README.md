@@ -14,12 +14,6 @@
     - [포스트 제목2].md
 - README.md
 
-## 구현 방법
-
-1. 티스토리 블로그에서 RSS 피드를 가져옵니다.
-2. GitHub Actions를 사용하여 일정 주기마다 README.md 파일을 업데이트합니다.
-3. 블로그 포스트는 카테고리별로 분류되어 마크다운 파일로 저장됩니다.
-
 ## 📕 Latest Blog Posts
 
 <a href="https://zo0oz.tistory.com/172">[Programmers][Python] Lv.1 로또의 최고 순위와 최저 순위</a></br><a href="https://zo0oz.tistory.com/171">[OpenAI API를 사용하여 텍스트 생성 및 처리] 계획서</a></br><a href="https://zo0oz.tistory.com/170">[Programmers][Python] Lv.1 키패드 누르기</a></br><a href="https://zo0oz.tistory.com/169">[BOJ][Python] 9461 파도반 수열</a></br><a href="https://zo0oz.tistory.com/168">해싱</a></br>
