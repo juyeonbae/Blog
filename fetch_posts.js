@@ -1,5 +1,8 @@
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import Parser from "rss-parser";
+import axios from 'axios';
+import { JSDOM } from 'jsdom';
+import TurndownService from 'turndown';
 
 // README.md 파일에 쓸 고정된 초기 텍스트 설정
 let text = `
